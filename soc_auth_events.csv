@@ -1,0 +1,11 @@
+_time,event_type,event_id,username,src_ip,dest_host,status,details
+2026-10-11T09:00:01,windows_logon,4624,ABHISHEK,192.0.2.10,WIN-LAB-01,success,Interactive workstation logon
+2026-10-11T09:03:11,windows_logon,4625,administrator,203.0.113.45,WIN-LAB-01,failure,Invalid password
+2026-10-11T09:03:14,windows_logon,4625,administrator,203.0.113.45,WIN-LAB-01,failure,Invalid password
+2026-10-11T09:03:18,windows_logon,4625,administrator,203.0.113.45,WIN-LAB-01,failure,Invalid password
+2026-10-11T09:03:22,windows_logon,4625,administrator,203.0.113.45,WIN-LAB-01,failure,Invalid password
+2026-10-11T09:05:42,windows_logon,4624,administrator,203.0.113.45,WIN-LAB-01,success,Successful network logon after failures
+2026-10-11T09:06:02,privilege_event,4672,administrator,-,WIN-LAB-01,info,Special privileges assigned
+2026-10-11T09:10:17,account_change,4720,temp-support,-,WIN-LAB-01,info,User account created
+2026-10-11T09:12:44,windows_logon,4625,guest,198.51.100.23,WIN-LAB-01,failure,Invalid password
+2026-10-11T09:25:00,account_lockout,4740,test-user,-,WIN-LAB-01,info,Account locked out
